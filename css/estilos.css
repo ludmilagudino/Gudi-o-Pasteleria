@@ -100,9 +100,21 @@ button:hover {
 
 }
 
+@keyframes texto {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
+
 .infoPasteleria h2 {
     color: #f4c4bc;
     font-size: 30px;
+    animation-name: texto;
+    animation-duration: 5s;
 }
 
 .infoPasteleria p {
@@ -127,6 +139,29 @@ button:hover {
 .imagenesOpciones img {
     width: 300px;
 }
+
+.imgBrownie {
+    transition: height 0.5s, width 0.5s;
+}
+.imgBrownie:hover {
+    width: 350px;
+}
+
+.imgTabletas {
+    transition: height 0.5s, width 0.5s;
+}
+.imgTabletas:hover {
+    width: 350px;
+}
+
+.imgAlfajor {
+    transition: height 0.5s, width 0.5s;
+}
+.imgAlfajor:hover {
+    width: 350px;
+}
+
+
 
 /* BOTON WHATSAPP */
 .botonWhatsApp img {
@@ -271,6 +306,8 @@ footer p {
     font-size: xx-large;
     margin-top: 10px;
     margin-bottom: 20px;
+    animation-name: texto;
+    animation-duration: 2s;
 }
 
 /* TIENDA */
@@ -371,6 +408,8 @@ footer p {
 }
 
 .sobreMi h2 {
+    animation-name: texto;
+    animation-duration: 2s;
     color: #f4c4bc;
     margin: 10px;
     font-size: xx-large
@@ -407,6 +446,11 @@ footer p {
 .fotosNagisa img {
     width: 40%;
     margin: 10px;
+    animation: height 0.10s, width 0.10s;
+}
+
+.fotosNagisa img:hover {
+    width: 50%;
 }
 
 /* GRID SOBRE MI*/
@@ -500,6 +544,7 @@ footer p {
     }
 }
 
+
 /* -----------------------------------------------*/
 /* SECCION CONTACTO */
 .contacto {
@@ -519,6 +564,8 @@ footer p {
     color: #f4c4bc;
     font-size: xx-large;
     margin-bottom: 20px;
+    animation-name: texto;
+    animation-duration: 2s;
 }
 
 /* FORMULARIO */
@@ -698,6 +745,8 @@ footer p {
 }
 
 .preguntasFrecuentes h2 {
+    animation-name: texto;
+    animation-duration: 2s;
     color: #f4c4bc;
     margin: 10px;
     font-size: xx-large
