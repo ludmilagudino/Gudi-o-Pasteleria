@@ -9,58 +9,55 @@ body {
 
 
 header {
-    grid-area: header;
     text-align: center;
     background-color: #f4c4bc;
-    width: 100%;
-    height: 40px;
+    color: white;
 }
+
+.nav-link {
+    color: white;
+}
+
+.nav-link active {
+    color: white;
+}
+
 
 .navegacion {
-    position: relative;
-    top: 7px;
+    text-align: center;
     display: inline;
     text-transform: uppercase;
-    font-weight: bold;
-    color: white;
-    
 }
 
+
 nav li a {
-    color: white;
     text-decoration: none;
     margin-left: 30px;
 }
 
+.navbar-brand img {
+    width: 50px;
+}
+
 /* SECCION INFORMACION */
 .informacion {
-    grid-area: informacion;
     background-color:#e4b4a6 ;
-    width: 100%;
-    height: 30px;
-    grid-area: informacion;
 }
 
 .informacion p {
     color: white;
     text-align: center;
+    padding: 5px;
 }
 
 /* SECCION ENCABEZADO */
 
-.encabezado {
-    grid-area: encabezado;
-}
-
-.imagenEncabezado {
-    width: 100%;
-}
 
 .botonTienda {
     text-align: center;
 }
 
-button {
+.botonTienda  {
     margin: 30px;
     background-color: #eee;
     border: none;
@@ -72,26 +69,27 @@ button {
     box-shadow: 0 0.4rem #dfd9d9;
     cursor: pointer;
 }
-button:active {
+.botonTienda :active {
     color: white;
     box-shadow: 1px #dfd9d9;
 }
 
-button:hover {
+.botonTienda:hover {
     background: #f4c4bc;
     color: white;
 }
 
 /* SECCION INFORMACION SOBRE PASTELERIA */
 .infoPasteleria {
-    grid-area: sobrenosotros;
     text-align: center;
     background-color: #ebdad79f;
-    margin-top: 30px;
-    margin-left: 70px;
-    margin-right: 70px;
-    margin-bottom: 60px;
-    height: 300px;
+    margin-bottom: 30px;
+}
+
+.infoPasteleria p {
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .infoPasteleria img {
@@ -127,7 +125,6 @@ button:hover {
 
 /* SECCION IMAGENES*/
 .imagenesOpciones {
-    grid-area: imagenes;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -174,14 +171,12 @@ button:hover {
 /* FOOTER */
 
 footer {
-    grid-area: footer;
     background-color: #f4c4bc;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     justify-content: space-around;
     align-items: center;
-
 
 }
 
@@ -204,96 +199,11 @@ footer p {
     color: white;
 }
 
-
-/* GRID */
-
-.bodyPadreGrid {
-    display: grid;
-    grid-template-areas: 
-    "header"
-    "informacion"
-    "encabezado"
-    "sobrenosotros"
-    "imagenes"
-    "footer"
-    ;
-
-}
-
-/* VISTA TABLET */
-@media (min-width:700px) and (max-width:1100px) {
-    .infoPasteleria {
-        height: 400px;
-    }
-
-    .imagenesOpciones img {
-        margin: 20px;
-    }
-
-    .redesSociales ul li {
-        font-size: larger;
-    }
-
-    footer p {
-        font-size: 20px;
-        margin-bottom: 20px;
-    }
-} 
-
-
-/*VISTA MOBILE INDEX*/
-@media (max-width:699px) {
-
-    nav li a {
-        font-size: 8px;
-        margin-left: 3px;
-    }
-
-    .informacion p {
-        font-size: 10px;
-    }
-
-
-    .infoPasteleria {
-        height: 550px;
-        margin: 30px;
-    }
-
-    .infoPasteleria p {
-        padding: 15px;
-    }
-
-    .infoPasteleria img {
-        width: 30%; 
-    }
-
-    .imagenesOpciones img {
-        margin-bottom: 30px;
-    }
-
-    .botonWhatsApp img {
-        bottom: 60px;
-
-    }
-
-    footer p {
-        font-size: 10px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-}
-
-
-
-
 /* -----------------------------------------------*/
 /* SECCION PASTELERIA */
 .pasteleria {
-    grid-area: infopasteleria;
     background-color: #ebdad79f;
     text-align: center;
-    width: 100%;
-    height: 200px;
 }
 
 .pasteleria img {
@@ -310,86 +220,27 @@ footer p {
     animation-duration: 2s;
 }
 
+.pasteleria p {
+    padding-bottom: 20px;
+}
+
+
 /* TIENDA */
 
-.tienda {
-    grid-area: tienda;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:center;
-    text-align: center;
+.card {
+    margin: 40px;
+    border: white;
 }
 
-
-.imagenesTienda {
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 10px;
-
-}
-
-.imagenesTienda img {
-    width: 60%;
-}
-
-.textoTienda {
-    font-size: 20px;
-    font-style: bold;
-    color: #e0a8a8;
-}
-
-.precioTienda {
-    color: #f1c6b8;
-}
-
-.precioTienda {
+.card-text {
     font-weight: bold;
 }
 
-/* GRID PASTELERIA */
-.gridPasteleria {
-    display: grid;
-    grid-template-areas: 
-    "header"
-    "infopasteleria"
-    "tienda"
-    "footer"
-    ;
-}
+.carrito {
+    background-color: #f4c4bc;
+    border-color: #e4b4a6;
 
-/* VISTA TABLET PASTELERIA*/
-@media (min-width:700px) and (max-width:1100px) {
-    .tienda {
-        justify-content:center;
-        justify-content: space-around;
-        text-align: center;
-    }
-    .imagenesTienda {
-        text-align: center;
-        margin-top: 0px;
-        margin-bottom: 0px;
     
-    }
-}
-
-
-/*VISTA MOBILE PASTELERIA*/
-@media (max-width:699px) {
-    .pasteleria {
-        height: 180px;
-    }
-    
-    .pasteleria img {
-        margin-top: 10px;
-        width: 100px;
-    }
-    
-    .pasteleria h2{
-        font-size:large;
-    }
-    .pasteleria p{
-        font-size: small;
-    }
 }
 
 /* -----------------------------------------------*/
