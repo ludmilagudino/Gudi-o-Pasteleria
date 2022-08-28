@@ -9,7 +9,6 @@ body {
 
 
 header {
-    text-align: center;
     background-color: #f4c4bc;
     color: white;
 }
@@ -25,7 +24,6 @@ header {
 
 .navegacion {
     text-align: center;
-    display: inline;
     text-transform: uppercase;
 }
 
@@ -51,7 +49,9 @@ nav li a {
 }
 
 /* SECCION ENCABEZADO */
-
+.encabezado img {
+    width: 100%;
+}
 
 .botonTienda {
     text-align: center;
