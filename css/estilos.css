@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: 'Homemade Apple', cursive; }
+
+header {
+  background-color: #f4c4bc; }
+  header nav {
+    text-transform: uppercase; }
+  header .nav-link {
+    color: white; }
+  header li a {
+    margin-left: 30px; }
+
+.informacion {
+  background-color: #e4b4a6; }
+
+p {
+  color: white;
+  text-align: center;
+  padding: 5px; }
+
+.encabezado {
+  background-color: white; }
+  .encabezado img {
+    width: 100%; }
+  .encabezado button {
+    text-align: center;
+    margin: 30px;
+    background-color: #eee;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    width: 10em;
+    border-radius: 1rem;
+    color: #e4b4a6;
+    box-shadow: 0 0.4rem #dfd9d9;
+    cursor: pointer; }
+  .encabezado button:active {
+    color: white;
+    box-shadow: 1px #dfd9d9; }
+  .encabezado button:hover {
+    background: #f4c4bc;
+    color: white; }
+
+.infoPasteleria {
+  text-align: center;
+  background-color: #ebdad79f;
+  margin-bottom: 30px; }
+  .infoPasteleria p {
+    margin-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: black; }
+  .infoPasteleria h1 {
+    color: #f4c4bc;
+    font-size: 30px;
+    animation-name: texto;
+    animation-duration: 5s; }
+
+@keyframes texto {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 100%; } }
+  .infoPasteleria img {
+    margin-top: 30px;
+    width: 10%; }
+
+.imagenesOpciones {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 60px; }
+  .imagenesOpciones img {
+    width: 300px;
+    transition: height 0.5s, width 0.5s; }
+  .imagenesOpciones img:hover {
+    width: 350px; }
+
+.botonWhatsApp img {
+  width: 50px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px; }
+
+footer {
+  background-color: #f4c4bc;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center; }
+  footer ul li {
+    top: 7px;
+    display: inline;
+    color: white;
+    word-spacing: 5px;
+    margin-left: 30px; }
+  footer img {
+    width: 100px;
+    margin: 20px; }

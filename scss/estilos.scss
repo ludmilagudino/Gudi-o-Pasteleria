@@ -1,0 +1,162 @@
+@import "variables";
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Homemade Apple', cursive;
+}
+
+    // nav
+    header {
+        background-color: $color-titulos;
+
+        nav {
+            text-transform: uppercase;
+        }
+
+        .nav-link {
+            color: $color-textos;
+        }
+
+            li a{
+                margin-left: 30px;
+            }
+    }
+    
+    // informacion
+    .informacion {
+        background-color: #e4b4a6;
+    }
+
+        p {
+            color: $color-textos;
+            text-align: center;
+            padding: 5px;
+        }
+
+    // encabezado 
+    .encabezado {
+        background-color: white;
+    
+
+        img{
+            width: 100%;
+        }
+
+        button {
+            text-align: center;
+            margin: 30px;
+            background-color: #eee;
+            border: none;
+            padding: 1rem;
+            font-size: 1rem;
+            width: 10em;
+            border-radius: 1rem;
+            color:$color-principal;
+            box-shadow: 0 0.4rem #dfd9d9;
+            cursor: pointer;
+        }
+
+        button:active {
+            color: $color-textos;
+            box-shadow: 1px #dfd9d9 ;
+        }
+
+        button:hover {
+            background: $color-titulos;
+            color: $color-textos;
+        }
+    }
+
+    // info pasteleria
+    .infoPasteleria {
+        text-align: center;
+        background-color: $color-contenedores;
+        margin-bottom: 30px;
+    
+        
+        p {
+            margin-top: 30px;
+            padding-bottom: 30px;
+            padding-left: 100px;
+            padding-right: 100px;
+            color: black;
+        }
+
+        h1 {
+            color: $color-titulos;
+            font-size: $tam-titulos;
+            animation-name: texto;
+            animation-duration: 5s;
+        }
+
+        @keyframes texto {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 100%;
+            }
+        }
+        
+        img {
+            margin-top: 30px;
+            width: 10%;
+        }
+    }
+
+    // fotos trabajos
+
+    .imagenesOpciones {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-bottom: 60px;
+
+            img{
+                width: 300px;
+                transition: height 0.5s, width 0.5s;
+            }
+
+            img:hover {
+                width: 350px;
+            }
+    }
+
+    // boton whatsapp
+    .botonWhatsApp {
+        img {
+            width: 50px;
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+        }
+    }
+
+    // footer
+    footer {
+        background-color: $color-titulos;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-content: space-around;
+        align-items: center;
+
+            ul li {
+                top: 7px;
+                display: inline;
+                color: $color-textos;
+                word-spacing: 5px;
+                margin-left: 30px;
+            }
+
+            img {
+                width: 100px;
+                margin: 20px;
+            }
+    }
+
