@@ -267,7 +267,7 @@ footer p {
 .textoSobreMi h2 {
     font-size: 50px;
     text-transform: uppercase;
-    margin: 30px;
+    margin: 20px;
     color: #f4c7cb;
 }
 
@@ -279,9 +279,14 @@ footer p {
 
 /* FOTOS */
 
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
 .fotosNagisa img {
     width: 300px;
-    margin:30px;
+    margin: 30px;
     animation: height 0.10s, width 0.10s;
 }
 
@@ -304,8 +309,15 @@ footer p {
 .misTrabajos img {
     width: 10%;
     margin: 10px;
-
 }
+
+/* CAROUSEL TRABAJOS */
+.imgCarousel {
+    width: 100px;
+    height: 400px;
+    object-fit: cover;
+}
+
 
 /* -----------------------------------------------*/
 /* SECCION CONTACTO */
