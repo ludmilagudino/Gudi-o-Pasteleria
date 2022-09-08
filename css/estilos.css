@@ -1,3 +1,8 @@
+.estilosP, .infoPasteleria p {
+  padding-left: 100px;
+  padding-right: 100px;
+  color: black; }
+
 * {
   margin: 0;
   padding: 0; }
@@ -5,6 +10,7 @@
 body {
   font-family: 'Homemade Apple', cursive; }
 
+/*SECCION HOME*/
 header {
   background-color: #f4c4bc; }
   header nav {
@@ -51,10 +57,7 @@ p {
   margin-bottom: 30px; }
   .infoPasteleria p {
     margin-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 100px;
-    padding-right: 100px;
-    color: black; }
+    padding-bottom: 30px; }
   .infoPasteleria h1 {
     color: #f4c4bc;
     font-size: 30px;
@@ -85,6 +88,7 @@ p {
 
 .botonWhatsApp img {
   width: 50px;
+  height: 50px;
   position: fixed;
   bottom: 10px;
   right: 10px; }
@@ -104,41 +108,39 @@ footer {
     margin-left: 30px; }
   footer img {
     width: 100px;
+    height: 100px;
     margin: 20px; }
 
-/* -----------------CODIGO ORIGINAL DE CSS DE LAS DEMAS PAGINAS------------------------------*/
-/* SECCION PASTELERIA */
+/*SECCION PASTELERIA*/
 .pasteleria {
   background-color: #ebdad79f;
   text-align: center; }
+  .pasteleria img {
+    margin-top: 10px;
+    width: 150px; }
+  .pasteleria h1 {
+    color: #f4c4bc;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    animation-name: texto;
+    animation-duration: 2s; }
+  .pasteleria p {
+    padding-bottom: 20px; }
 
-.pasteleria img {
-  margin-top: 10px;
-  width: 150px; }
-
-.pasteleria h2 {
-  color: #f4c4bc;
-  font-size: xx-large;
-  margin-top: 10px;
-  margin-bottom: 20px;
-  animation-name: texto;
-  animation-duration: 2s; }
-
-.pasteleria p {
-  padding-bottom: 20px; }
-
-/* TIENDA */
-.card {
+.row .card {
   margin: 40px;
-  border: white; }
+  border-color: white; }
 
-.card-text {
-  font-weight: bold; }
+.row p {
+  font-weight: bold;
+  color: #f4c4bc; }
 
-.carrito {
+.row .btn {
   background-color: #f4c4bc;
   border-color: #e4b4a6; }
 
+/*CODIGO ORIGINAL CSS*/
 /* -----------------------------------------------*/
 /* SECCION SOBRE MI */
 .sobreMi {

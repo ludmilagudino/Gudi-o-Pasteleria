@@ -8,6 +8,7 @@ body {
     font-family: 'Homemade Apple', cursive;
 }
 
+/*SECCION HOME*/
     // nav
     header {
         background-color: $color-secundario;
@@ -78,15 +79,14 @@ body {
     
         
         p {
+            @extend.estilosP;
             margin-top: 30px;
             padding-bottom: 30px;
-            padding-left: 100px;
-            padding-right: 100px;
-            color: black;
+            
         }
 
         h1 {
-            color:map-get($estilo-titulos, color);
+            color:map-get($estilo-titulos, colorFuente);
             font-size: map-get($estilo-titulos, tamFuente);
             animation-name: texto;
             animation-duration: 5s;
@@ -131,6 +131,7 @@ body {
     .botonWhatsApp {
         img {
             width: 50px;
+            height: 50px;
             position: fixed;
             bottom: 10px;
             right: 10px;
@@ -156,55 +157,54 @@ body {
 
             img {
                 width: 100px;
+                height:100px;
                 margin: 20px;
             }
     }
 
 
-    /* -----------------CODIGO ORIGINAL DE CSS DE LAS DEMAS PAGINAS------------------------------*/
-/* SECCION PASTELERIA */
-.pasteleria {
-    background-color: #ebdad79f;
-    text-align: center;
-}
+/*SECCION PASTELERIA*/
 
-.pasteleria img {
-    margin-top: 10px;
-    width: 150px;
-}
+    .pasteleria {
+        background-color: $color-contenedores;
+        text-align: center;
 
-.pasteleria h2{
-    color: #f4c4bc;
-    font-size: xx-large;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    animation-name: texto;
-    animation-duration: 2s;
-}
+            img {
+                margin-top: 10px;
+                width: 150px;
+            }
 
-.pasteleria p {
-    padding-bottom: 20px;
-}
+            h1 {
+                color:map-get($estilo-titulos, colorFuente);
+                font-size: map-get($estilo-titulos, tamFuente);
+                @include margenes(10px, 5px)
+                animation-name: texto;
+                animation-duration: 2s;
+            }
 
+            p {
+                padding-bottom: 20px;
+            }
+    }
 
-/* TIENDA */
+    .row {
+        .card {
+            margin: 40px;
+            border-color: white;
+        }
 
-.card {
-    margin: 40px;
-    border: white;
-}
+        p {
+            font-weight: bold;
+            color: $color-secundario;
+        }
 
-.card-text {
-    font-weight: bold;
-}
+        .btn {
+            background-color: $color-secundario;
+            border-color: $color-principal;
+        }
+    }
 
-.carrito {
-    background-color: #f4c4bc;
-    border-color: #e4b4a6;
-
-    
-}
-
+    /*CODIGO ORIGINAL CSS*/
 /* -----------------------------------------------*/
 /* SECCION SOBRE MI */
 .sobreMi {

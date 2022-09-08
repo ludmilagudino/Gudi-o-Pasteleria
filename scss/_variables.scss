@@ -5,5 +5,17 @@ $color-secundario: #f4c4bc;
 $color-textos:white;
 
 // para aplicar en todos los H1 de las demas secciones
-$estilo-titulos:(color:#f4c4bc, tamFuente: 30px);
+$estilo-titulos:(colorFuente:#f4c4bc, tamFuente: 30px);
 
+// mixin con parametros para margenes
+@mixin margenes($top, $bottom) {
+    margin-top: $top;
+    margin-bottom: $bottom;
+}
+
+//extend para etiqueta p
+.estilosP {
+    padding-left: 100px;
+    padding-right: 100px;
+    color: black;
+}
