@@ -1,0 +1,13 @@
+SEO de mi sitio: NagiCakes
+Cambie los titulos de cada una de las secciones para que sean diferentes:
+	- NagiCakes Pasteleria
+	- NagiCakes/Tienda
+	- NagiCakes/Sobre Mi
+	- NagiCakes/Contacto
+	- NagiCakes/FAQ
+
+Agregué descripciones diferentes para cada una de las secciones teniendo en cuenta el objetivo de cada una
+
+Cambie etiquetas de texto ya que no habia usado H1 en todas las secciones
+
+Cambie algunos lorems
