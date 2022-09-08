@@ -1,6 +1,8 @@
 // variables
 $color-principal: #e4b4a6;
 $color-contenedores: #ebdad79f;
-$color-titulos: #f4c4bc;
+$color-secundario: #f4c4bc;
 $color-textos:white;
-$tam-titulos: 30px;
+
+// para aplicar en todos los H1 de las demas secciones
+$estilo-titulos:(color:#f4c4bc, tamFuente: 30px);

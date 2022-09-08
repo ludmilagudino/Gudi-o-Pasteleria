@@ -10,7 +10,7 @@ body {
 
     // nav
     header {
-        background-color: $color-titulos;
+        background-color: $color-secundario;
 
         nav {
             text-transform: uppercase;
@@ -65,7 +65,7 @@ body {
         }
 
         button:hover {
-            background: $color-titulos;
+            background: $color-secundario;
             color: $color-textos;
         }
     }
@@ -86,8 +86,8 @@ body {
         }
 
         h1 {
-            color: $color-titulos;
-            font-size: $tam-titulos;
+            color:map-get($estilo-titulos, color);
+            font-size: map-get($estilo-titulos, tamFuente);
             animation-name: texto;
             animation-duration: 5s;
         }
@@ -139,7 +139,7 @@ body {
 
     // footer
     footer {
-        background-color: $color-titulos;
+        background-color: $color-secundario;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
