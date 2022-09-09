@@ -166,10 +166,24 @@ footer {
   text-transform: uppercase;
   margin: 20px;
   color: #f4c7cb;
-  text-align: center; }
+  text-align: center;
+  margin: 0; }
 
 .textoSobreMi p {
-  margin-bottom: 30px; }
+  font-size: 15px;
+  margin: 0; }
+
+.textoSobreMi h3 {
+  text-align: center;
+  color: #f4c7cb;
+  margin: 0; }
+
+.textoSobreMi h4 {
+  font-size: 20px;
+  text-align: right;
+  padding-right: 100px;
+  color: #f4c7cb;
+  margin: 0; }
 
 .fotosNagisa img {
   width: 250px;
@@ -186,6 +200,7 @@ footer {
   .misTrabajos h2 {
     color: #f4c4bc;
     font-size: 30px;
+    padding-bottom: 20px;
     animation-name: texto;
     animation-duration: 5s; }
   .misTrabajos img {
@@ -250,9 +265,5 @@ footer {
     animation-duration: 5s; }
   .envios p {
     margin: 10px; }
-
-.fotoUbicacion img {
-  margin: 30px;
-  width: 200px; }
 
 /*SECCION FAQ*/
