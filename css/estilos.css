@@ -105,9 +105,13 @@ footer {
   footer ul li {
     top: 7px;
     display: inline;
-    color: white;
     word-spacing: 5px;
     margin-left: 30px; }
+  footer a {
+    text-decoration: none;
+    color: white; }
+  footer a:hover {
+    color: #e4b4a6; }
   footer img {
     width: 100px;
     height: 100px;
@@ -240,6 +244,15 @@ footer {
 .envios {
   text-align: center; }
   .envios h2 {
-    color: #f4c4bc; }
+    color: #f4c4bc;
+    font-size: 30px;
+    animation-name: texto;
+    animation-duration: 5s; }
   .envios p {
     margin: 10px; }
+
+.fotoUbicacion img {
+  margin: 30px;
+  width: 200px; }
+
+/*SECCION FAQ*/

@@ -154,9 +154,17 @@ body {
             ul li {
                 top: 7px;
                 display: inline;
-                color: $color-textos;
                 word-spacing: 5px;
                 margin-left: 30px;
+            }
+
+            a {
+                text-decoration: none;
+                color: white;
+            }
+
+            a:hover {
+                color: $color-principal;
             }
 
             img {
@@ -363,7 +371,7 @@ body {
             color:map-get($estilo-titulos, colorFuente);
             font-size: map-get($estilo-titulos, tamFuente);
             animation-name: texto;
-            animation-duration: 5s;cundario;
+            animation-duration: 5s;
         }
 
         p {
@@ -383,4 +391,3 @@ body {
 
 
     /*SECCION FAQ*/
-    
