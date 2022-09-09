@@ -399,3 +399,46 @@ body {
     }
 
     /*SECCION FAQ*/
+
+    .preguntasFrecuentes {
+        text-align: center;
+        background-color: $color-contenedores;
+
+        img {
+            width: 100px;
+            margin-top: 20px;
+        }
+
+        h1 {
+            color:map-get($estilo-titulos, colorFuente);
+            font-size: map-get($estilo-titulos, tamFuente);
+            animation-name: texto;
+            animation-duration: 2s;
+            margin: 10px;
+            padding-bottom: 20px;
+        }
+    }
+
+    .preguntas {
+        padding-left: 30px;
+        padding-right: 30px;
+        margin: 20px;
+        border: solid 2px $color-secundario;
+
+        h2{
+            color: $color-secundario;
+            text-align: center;
+            margin: 10px;
+            text-transform: uppercase;
+        }
+
+        h3 {
+            color: #f4c7cb;
+        }
+
+        p{
+            margin-bottom: 10px;
+            color: black;
+
+        }
+    }

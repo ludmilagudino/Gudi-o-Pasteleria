@@ -267,3 +267,32 @@ footer {
     margin: 10px; }
 
 /*SECCION FAQ*/
+.preguntasFrecuentes {
+  text-align: center;
+  background-color: #ebdad79f; }
+  .preguntasFrecuentes img {
+    width: 100px;
+    margin-top: 20px; }
+  .preguntasFrecuentes h1 {
+    color: #f4c4bc;
+    font-size: 30px;
+    animation-name: texto;
+    animation-duration: 2s;
+    margin: 10px;
+    padding-bottom: 20px; }
+
+.preguntas {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 20px;
+  border: solid 2px #f4c4bc; }
+  .preguntas h2 {
+    color: #f4c4bc;
+    text-align: center;
+    margin: 10px;
+    text-transform: uppercase; }
+  .preguntas h3 {
+    color: #f4c7cb; }
+  .preguntas p {
+    margin-bottom: 10px;
+    color: black; }
