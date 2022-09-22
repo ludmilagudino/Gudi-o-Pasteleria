@@ -36,7 +36,7 @@ p {
     width: 100%; }
   .encabezado button {
     text-align: center;
-    margin: 30px;
+    margin: 20px;
     background-color: #eee;
     border: none;
     padding: 1rem;
@@ -55,7 +55,7 @@ p {
 
 .infoPasteleria {
   text-align: center;
-  background-color: #ebdad79f;
+  background-color: #ffdddd;
   margin-bottom: 30px; }
   .infoPasteleria p {
     margin-top: 30px;
@@ -119,7 +119,7 @@ footer {
 
 /*SECCION PASTELERIA*/
 .pasteleria {
-  background-color: #ebdad79f;
+  background-color: #ffdddd;
   text-align: center; }
   .pasteleria img {
     margin-top: 10px;
@@ -149,7 +149,7 @@ footer {
 /*SECCION SOBRE MI*/
 .sobreMi {
   text-align: center;
-  background-color: #ebdad79f; }
+  background-color: #ffdddd; }
   .sobreMi img {
     margin-top: 20px;
     width: 100px; }
@@ -195,7 +195,7 @@ footer {
 
 .misTrabajos {
   text-align: center;
-  background-color: #ebdad79f;
+  background-color: #ffdddd;
   margin-bottom: 30px; }
   .misTrabajos h2 {
     color: #f4c4bc;
@@ -214,7 +214,7 @@ footer {
 
 /*SECCION CONTACTO*/
 .contacto {
-  background-color: #ebdad79f;
+  background-color: #ffdddd;
   text-align: center; }
   .contacto img {
     width: 70px;
@@ -249,7 +249,7 @@ footer {
 
 .ubicacion {
   text-align: center;
-  background-color: #ebdad79f; }
+  background-color: #ffdddd; }
   .ubicacion img {
     margin-top: 20px;
     width: 100px; }
@@ -269,7 +269,7 @@ footer {
 /*SECCION FAQ*/
 .preguntasFrecuentes {
   text-align: center;
-  background-color: #ebdad79f; }
+  background-color: #ffdddd; }
   .preguntasFrecuentes img {
     width: 100px;
     margin-top: 20px; }
