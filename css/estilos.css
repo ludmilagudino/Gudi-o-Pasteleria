@@ -8,7 +8,7 @@
   padding: 0; }
 
 body {
-  font-family: 'Homemade Apple', cursive; }
+  font-family: 'Balsamiq Sans', cursive; }
 
 /*SECCION HOME*/
 header {
@@ -55,22 +55,14 @@ p {
 
 .infoPasteleria {
   text-align: center;
-  background-color: #ffdddd;
+  background-color: #ebdad79f;
   margin-bottom: 30px; }
   .infoPasteleria p {
     margin-top: 30px;
     padding-bottom: 30px; }
   .infoPasteleria h1 {
     color: #f4c4bc;
-    font-size: 30px;
-    animation-name: texto;
-    animation-duration: 5s; }
-
-@keyframes texto {
-  0% {
-    opacity: 0; }
-  100% {
-    opacity: 100%; } }
+    font-size: 30px; }
   .infoPasteleria img {
     margin-top: 30px;
     width: 10%; }
@@ -119,7 +111,7 @@ footer {
 
 /*SECCION PASTELERIA*/
 .pasteleria {
-  background-color: #ffdddd;
+  background-color: #ebdad79f;
   text-align: center; }
   .pasteleria img {
     margin-top: 10px;
@@ -132,7 +124,8 @@ footer {
     animation-name: texto;
     animation-duration: 2s; }
   .pasteleria p {
-    padding-bottom: 20px; }
+    padding-bottom: 20px;
+    color: black; }
 
 .tiendaCards .card {
   margin: 40px;
@@ -149,7 +142,7 @@ footer {
 /*SECCION SOBRE MI*/
 .sobreMi {
   text-align: center;
-  background-color: #ffdddd; }
+  background-color: #ebdad79f; }
   .sobreMi img {
     margin-top: 20px;
     width: 100px; }
@@ -195,7 +188,7 @@ footer {
 
 .misTrabajos {
   text-align: center;
-  background-color: #ffdddd;
+  background-color: #ebdad79f;
   margin-bottom: 30px; }
   .misTrabajos h2 {
     color: #f4c4bc;
@@ -214,7 +207,7 @@ footer {
 
 /*SECCION CONTACTO*/
 .contacto {
-  background-color: #ffdddd;
+  background-color: #ebdad79f;
   text-align: center; }
   .contacto img {
     width: 70px;
@@ -222,10 +215,7 @@ footer {
   .contacto h1 {
     color: #f4c4bc;
     font-size: 30px;
-    margin-bottom: 10px;
-    animation-name: texto;
-    animation-duration: 2s; }
-  .contacto p {
+    margin: 10px;
     padding-bottom: 30px; }
 
 .formulario {
@@ -249,7 +239,7 @@ footer {
 
 .ubicacion {
   text-align: center;
-  background-color: #ffdddd; }
+  background-color: #ebdad79f; }
   .ubicacion img {
     margin-top: 20px;
     width: 100px; }
@@ -269,7 +259,7 @@ footer {
 /*SECCION FAQ*/
 .preguntasFrecuentes {
   text-align: center;
-  background-color: #ffdddd; }
+  background-color: #ebdad79f; }
   .preguntasFrecuentes img {
     width: 100px;
     margin-top: 20px; }
