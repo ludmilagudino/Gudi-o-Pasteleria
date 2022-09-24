@@ -113,6 +113,7 @@ body {
         margin-bottom: 60px;
 
             img{
+                margin-bottom: 30px;
                 width: 300px;
                 transition: height 0.5s, width 0.5s;
             }
@@ -143,10 +144,9 @@ body {
         align-items: center;
 
             ul li {
-                top: 7px;
                 display: inline;
                 word-spacing: 5px;
-                margin-left: 30px;
+                margin: 20px;
             }
 
             a {
@@ -193,7 +193,7 @@ body {
 
     .tiendaCards {
         .card {
-            margin: 40px;
+            margin: 20px;
             border-color: white;
         }
 
@@ -232,48 +232,51 @@ body {
     }
 
     //texto
-
     .textoSobreMi {
-        h2 {
-            font-size: 50px;
-            text-transform: uppercase;
-            margin: 20px;
-            color:#f4c7cb;
-            text-align: center;
-            margin: 0;
-        }
 
-        p {
-            @extend.estilosP;
-            font-size: 15px;
-            margin: 0;
-        }
+            h2 {
+                font-size: 50px;
+                text-transform: uppercase;
+                margin: 20px;
+                color:#f4c7cb;
+                text-align: center;
+                margin: 0;
+            }
 
-        h3 {
-            text-align: center;
-            color: #f4c7cb;
-            margin: 0;
-        }
+            p {
+                color: black;
+                font-size: 15px;
+                margin: 0;
+                padding-left: 40px;
+                padding-right: 40px;
+            }
 
-        h4 {
-            font-size: 20px;
-            text-align: right;
-            padding-right: 100px;
-            color: #f4c7cb;
-            margin: 0;
-        }
+            h3 {
+                text-align: center;
+                color: #f4c7cb;
+                margin: 0;
+            }
+
+            h4 {
+                font-size: 20px;
+                text-align: right;
+                padding-right: 100px;
+                color: #f4c7cb;
+                margin: 0;
+            }
     }
 
     //fotos
     .fotosNagisa {
         img {
             width: 250px;
-            transition: height 0.5s, width 0.5s;
+
             margin: 30px;
             }
 
         img:hover {
-                width: 300px;
+            transform: scale(1.04);
+            cursor: pointer;
             }
     }
 
@@ -297,10 +300,15 @@ body {
         }
     }
     //carrusel
-    .imgCarousel {
+
+    .carousel{
+        margin-bottom: 30px;
+    
+        .imgCarousel {
         width: 100px;
         height: 400px;
         object-fit: cover;
+        }
     }
 
 

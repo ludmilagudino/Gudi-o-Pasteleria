@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
-.estilosP, .infoPasteleria p, .textoSobreMi p, .horarios p, .envios p {
+.estilosP, .infoPasteleria p, .horarios p, .envios p {
   padding-left: 100px;
   padding-right: 100px;
   color: black; }
@@ -76,6 +76,7 @@ p {
   align-items: center;
   margin-bottom: 60px; }
   .imagenesOpciones img {
+    margin-bottom: 30px;
     width: 300px;
     transition: height 0.5s, width 0.5s; }
   .imagenesOpciones img:hover {
@@ -96,10 +97,9 @@ footer {
   justify-content: space-around;
   align-items: center; }
   footer ul li {
-    top: 7px;
     display: inline;
     word-spacing: 5px;
-    margin-left: 30px; }
+    margin: 20px; }
   footer a {
     text-decoration: none;
     color: white; }
@@ -129,7 +129,7 @@ footer {
     color: black; }
 
 .tiendaCards .card {
-  margin: 40px;
+  margin: 20px;
   border-color: white; }
 
 .tiendaCards p {
@@ -164,8 +164,11 @@ footer {
   margin: 0; }
 
 .textoSobreMi p {
+  color: black;
   font-size: 15px;
-  margin: 0; }
+  margin: 0;
+  padding-left: 40px;
+  padding-right: 40px; }
 
 .textoSobreMi h3 {
   text-align: center;
@@ -181,11 +184,11 @@ footer {
 
 .fotosNagisa img {
   width: 250px;
-  transition: height 0.5s, width 0.5s;
   margin: 30px; }
 
 .fotosNagisa img:hover {
-  width: 300px; }
+  transform: scale(1.04);
+  cursor: pointer; }
 
 .misTrabajos {
   text-align: center;
@@ -201,10 +204,12 @@ footer {
     width: 10%;
     margin: 10px; }
 
-.imgCarousel {
-  width: 100px;
-  height: 400px;
-  object-fit: cover; }
+.carousel {
+  margin-bottom: 30px; }
+  .carousel .imgCarousel {
+    width: 100px;
+    height: 400px;
+    object-fit: cover; }
 
 /*SECCION CONTACTO*/
 .contacto {
