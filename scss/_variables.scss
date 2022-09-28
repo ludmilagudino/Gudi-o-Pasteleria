@@ -4,7 +4,7 @@ $color-contenedores: #ebdad79f;
 $color-secundario: #f4c4bc;
 $color-textos:white;
 
-// para aplicar en todos los H1 de las demas secciones
+// estilos H1
 $estilo-titulos:(colorFuente:#f4c4bc, tamFuente: 30px);
 
 // mixin con parametros para margenes
@@ -15,7 +15,7 @@ $estilo-titulos:(colorFuente:#f4c4bc, tamFuente: 30px);
 
 //extend para etiqueta p
 .estilosP {
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
     color: black;
 }

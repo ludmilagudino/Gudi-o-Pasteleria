@@ -8,6 +8,8 @@
     <meta name="description" content="Una pastelería donde conviven los sabores de siempre con los de ahora. NagiCakes esta en Alta Gracia, Cordoba. Llamanos al 3547 56-3864.
     ">
     <link rel="shortcut icon" href="../imagen/logooass.png" type="image/x-icon" />
+    <!-- ANIMATE CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <!-- CSS only -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
@@ -62,7 +64,7 @@
         <h1> Contacto </h1>
     </div>
 
-    <section class="seccionFormulario">
+    <!--<section class="seccionFormulario">
         <div class="formulario">
             <form>
                 <div>
@@ -106,6 +108,7 @@
             </div>
         </form>
     </section>
+    
 
     <div class="horarios">
         <h2>Horarios de atención</h2>
@@ -113,42 +116,95 @@
         <p>Martes y Miércoles  de 13 a 17 hs</p>
         <p>Jueves y  Viernes de 11 a 19.00 hs</p>
         <p>Sábados de 9.00 a 12.30 hs.</p>
-    </div>
+    </div>-->
 
+    <!-- FORMULARIO -->
+      <div class="content">
+          <div class="contact-wrapper animated bounceInUp">
+              <div class="formulario">
+                  <form action="">
+                      <p>
+                          <label>Nombre Completo</label>
+                          <input type="text" name="Nombre y Apellido">
+                      </p>
+                      <p>
+                          <label>Direccion de Email</label>
+                          <input type="email" name="email">
+                      </p>
+                      <p>
+                          <label>Phone Number</label>
+                          <input type="tel" name="phone">
+                      </p>
+                      <p>
+                          <label>Asunto</label>
+                          <input type="text" name="asunto">
+                      </p>
+                      <p class="block">
+                        <label>Mensaje</label> 
+                          <textarea name="Mensaje" rows="3"></textarea>
+                      </p>
+                      <p class="block">
+                          <button>
+                              Enviar
+                          </button>
+                      </p>
+                  </form>
+              </div>
+              <div class="horarios">
+                  <h4>Horarios de atención</h4>
+                  <ul>
+                      <li> Domingos y Lunes CERRADO</li>
+                      <li>Martes y Miércoles  de 13 a 17 hs</li>
+                      <li>Jueves y  Viernes de 11 a 19.00 hs</li>
+                      <li> Sábados de 9.00 a 12.30 hs.</li>
+                  </ul>
+              </div>
+          </div>
+  
+      </div>
+
+
+
+
+
+
+
+<!-- SECCION UBICACION-->
     <div class="ubicacion container-fluid">
         <img src="../imagen/ubicacion.png" alt="sobre">
         <h2>Ubicacion</h2>
     </div>
 
-
-    <div class="envios">
+<!-- INFO ENVIOS-->
+    <article class="envios">
         <h2>Envios y Retiros</h2>
         <p>Los retiros por taller son en Alta Gracia, Córdoba. La dirección exacta será dada una vez se finalice el proceso de compra.</p>
         <p>Los envíos tienen un valor de $150 y se realizan a través de cadeteria.</p>
         <p>Los costos de envío a Provincia de Córdoba deben ser consultados. La consulta puede hacerse por medio del acceso a WhatsApp del sitio web o al finalizar el proceso de compra.</p> 
-
-    </div>
-
+    </article>
+  
+    <!-- BOTON WHATSAPP -->
     <div class="botonWhatsApp">
         <img src="../imagen/whatsapp icon.png" alt="whatsapp">
     </div>
-    
+
+      <!-- FOOTER -->
     <footer>
-        <div class="gato">
-            <img src="../imagen/logogato.png" alt="gato">
-        </div>
-        <nav class="redesSociales">
-            <ul>
-              <li> <a href="https://www.facebook.com/nagi.cakes">Facebook</a>  </li>
-              <li> <a href="https://www.instagram.com/nagi.cakes/">Instagram</a>  </li>
-              <li> <a href="https://www.tiktok.com/@iud1000a?lang=es">TikTok</a>  </li>
-            </ul>
-        </nav>
-        <div>
-            <p>© 2022 NagiCakes pasteleria casera todos los derechos reservados</p>
-            </div>
-    
+      <div class="gato">
+        <img src="../imagen/logogato.png" alt="gato" />
+      </div>
+      <nav class="redesSociales">
+        <ul>
+          <li> <a href="https://www.facebook.com/nagi.cakes"><img src="../imagen/vectores/facebook.png" alt="Facebook" /></a></li>
+          <li> <a href="https://www.instagram.com/nagi.cakes/"><img src="../imagen/vectores/instagram.png" alt="instagram" /></a>  </li>
+          <li> <a href="https://www.tiktok.com/@iud1000a?lang=es"><img src="../imagen/vectores/tiktok.png" alt="TikTok" /></a>  </li>
+        </ul>
+      </nav>
+      <div>
+        <p>© 2022 NagiCakes pasteleria casera todos los derechos reservados</p>
+      </div>
     </footer>
+
     <!-- JavaScript Bundle with Popper -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"

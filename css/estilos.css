@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 .estilosP, .infoPasteleria p, .horarios p, .envios p {
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
   color: black; }
 
 * {
@@ -31,28 +31,31 @@ p {
   text-align: center;
   padding: 5px; }
 
-.encabezado {
+.imagenHero {
   background-color: white; }
-  .encabezado img {
+  .imagenHero img {
     width: 100%; }
-  .encabezado button {
-    text-align: center;
-    margin: 20px;
-    background-color: #eee;
-    border: none;
-    padding: 1rem;
-    font-size: 1rem;
-    width: 10em;
-    border-radius: 1rem;
-    color: #e4b4a6;
-    box-shadow: 0 0.4rem #dfd9d9;
-    cursor: pointer; }
-  .encabezado button:active {
-    color: white;
-    box-shadow: 1px #dfd9d9; }
-  .encabezado button:hover {
-    background: #f4c4bc;
-    color: white; }
+
+.botonTienda button {
+  text-align: center;
+  margin: 20px;
+  background-color: #eee;
+  border: none;
+  padding: 1rem;
+  font-size: 1rem;
+  width: 10em;
+  border-radius: 1rem;
+  color: #e4b4a6;
+  box-shadow: 0 0.4rem #dfd9d9;
+  cursor: pointer; }
+
+.botonTienda button:active {
+  color: white;
+  box-shadow: 1px #dfd9d9; }
+
+.botonTienda button:hover {
+  background: #f4c4bc;
+  color: white; }
 
 .infoPasteleria {
   text-align: center;
@@ -67,6 +70,18 @@ p {
   .infoPasteleria img {
     margin-top: 30px;
     width: 10%; }
+
+.servicio {
+  margin-bottom: 30px; }
+  .servicio img {
+    width: 100px;
+    display: block;
+    margin: auto; }
+  .servicio h2 {
+    color: #f4c4bc;
+    text-align: center; }
+  .servicio p {
+    color: black; }
 
 .imagenesOpciones {
   display: flex;
@@ -94,17 +109,17 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center; }
   footer ul li {
-    display: inline;
-    word-spacing: 5px;
-    margin: 20px; }
-  footer a {
-    text-decoration: none;
-    color: white; }
-  footer a:hover {
-    color: #e4b4a6; }
+    display: inline; }
+    footer ul li img {
+      width: 40px;
+      height: 40px;
+      transition: height 0.5s, width 0.5s; }
+    footer ul li img:hover {
+      width: 50px;
+      height: 50px; }
   footer img {
     width: 100px;
     height: 100px;
@@ -220,19 +235,19 @@ footer {
     margin-top: 10px; }
   .contacto h1 {
     color: #f4c4bc;
-    font-size: 30px;
-    margin: 10px;
-    padding-bottom: 30px; }
+    font-size: 30px; }
 
-.formulario {
-  text-align: center;
-  background-image: url(../imagen/fondo.png); }
-  .formulario input {
-    margin-bottom: 30px; }
-  .formulario label {
-    margin-top: 10px;
-    margin-bottom: 5px;
-    color: black; }
+.content {
+  max-width: 1170px;
+  margin: 30px;
+  padding: 1.5rem; }
+  .content .contact-wrapper {
+    box-shadow: 0 0 20px 0 #ebdad79f .3;
+    background-color: #f4c4bc; }
+  .content .horarios {
+    background-color: #ebdad79f;
+    color: white;
+    text-align: start; }
 
 .horarios {
   text-align: center;
