@@ -53,8 +53,7 @@ body {
         }
     }
 
-    // boton tienda
-    .botonTienda {
+    // boton tienda 
         button {
             text-align: center;
             margin: 20px;
@@ -65,7 +64,7 @@ body {
             width: 10em;
             border-radius: 1rem;
             color:$color-principal;
-            box-shadow: 0 0.4rem #dfd9d9;
+            box-shadow: 0 0.2rem 0.1rem #e4b4a6;
             cursor: pointer;
         }
 
@@ -78,8 +77,7 @@ body {
                 background: $color-secundario;
                 color: $color-textos;
             }
-    }
-
+        
     // info pasteleria
     .infoPasteleria {
         text-align: center;
@@ -322,17 +320,20 @@ body {
             margin: 10px;
         }
     }
-    //carrusel
 
-    .carousel{
-        margin-bottom: 30px;
-    
-        .imgCarousel {
-        width: 100px;
-        height: 400px;
-        object-fit: cover;
+       //carrusel
+    .carousel-item {
+
+        img {
+            border: 5px solid $color-secundario;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 10px;
+            margin-bottom: 30px;
         }
     }
+    
 
 
     /*SECCION CONTACTO*/
@@ -348,45 +349,49 @@ body {
         h1{
             color:map-get($estilo-titulos, colorFuente);
             font-size: map-get($estilo-titulos, tamFuente);
+            padding-bottom: 10px;
         }
     }
 
+
+    //formulario
     .content {
-        
+        background-image: url(../imagen/fondodesenfocado.png);
         max-width: 1170px;
-        margin: 30px;
-        padding: 1.5rem;
-    
-        .contact-wrapper {
-            box-shadow: 0 0 20px 0 #ebdad79f .3;
-            background-color: #f4c4bc;
-        }
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+        padding: 1.5em;
 
-        .horarios {
-            background-color: #ebdad79f;
-            color: white;
+        contact-wrapper{
+            padding: 1em;
             text-align: start;
-
-            
         }
 
-    }
+        form {
+        background-color: #f7d4ce;
 
-    //horarios
-    .horarios {
-        text-align: center;
-        justify-self: center;
+            input,
+            textarea {
+                width: 100%;
+                padding: .7em;
+                border: none;
+                background: none;
+                border-bottom: 1px solid white;
+                outline: none;
+                color: black;
+                    }
 
-        h2{
-            color: $color-secundario
-        }
+            label {
+                font-size: 20px;
+            }
 
-        p{
-            margin: 10px;
-            font-size: small;  
-            @extend.estilosP;  
-        }
-    }
+            button {
+            text-transform: uppercase;
+            padding: 1rem;
+                    }
+                }
+            }
 
     //ubicacion
     .ubicacion {
@@ -400,12 +405,21 @@ body {
         
         h2{
             color: $color-secundario;
+            padding-bottom: 10px;
         }
+    }
+
+
+    //iframe ubicacion
+    iframe {
+        margin-bottom: 30px;
+        padding-top: 20px;
     }
 
     //envios
     .envios {
         text-align: center;
+        margin: 20px;
 
         h2{
             color:map-get($estilo-titulos, colorFuente);
